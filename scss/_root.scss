@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+@font-face {
+   font-family: 'Aachen_BT_Bold';
+   src: url(../fonts/Aachen_BT_Bold.ttf);
+}
+
+@font-face {
+   font-family: 'Baloo_bhai_regular';
+   src: url(../fonts/BalooBhai-Regular.ttf);
+}
+
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+
+a{
+   text-decoration: none;
+}
+
+p{
+   color: #fff;
+}
+
+ul{
+   text-decoration: none;
+   list-style-type: none;
+}

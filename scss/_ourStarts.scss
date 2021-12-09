@@ -1,0 +1,61 @@
+.our-starts{
+   text-align: center;
+   background: url(../images/Background.png) no-repeat center center/cover;
+   padding-top: 10%;
+   padding-bottom: 10%;
+
+
+   .section-header{
+
+      h2{
+         color: #6c9894;
+         font-family: 'Baloo_bhai_regular' ,serif;
+         font-size: 40px;
+         text-transform: uppercase;
+      }
+
+      p{
+         color: #6c9894;
+      }
+   }
+
+   .section-body{
+
+      .items{
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
+         justify-items: center;
+
+         @media (max-width: 991px){
+         grid-template-columns: 1fr;
+         justify-items: center;
+         }
+
+         .item{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 3px solid #6c9894;
+            padding: 20px;
+            display: grid;
+            align-content: center;
+
+            @media (max-width: 768px){
+               height: 150px;
+               width: 150px;
+            }
+            
+            h3{
+               color: #6c9894;
+            }
+   
+            p{
+               color: #6c9894;
+            }
+         }
+      }
+
+
+
+   }
+}

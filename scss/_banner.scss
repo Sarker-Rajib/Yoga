@@ -1,0 +1,71 @@
+.banner{
+   padding-top: 50px;
+   padding-bottom: 60px;
+
+   .container{
+      .abs-img{
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+         border-radius: 50%;
+         border: 2px solid #6c9894;
+
+         @media (max-width: 768px){
+            height: 200px;
+            width: 200px;
+         }
+      }
+   
+      .text{
+
+         padding: 35px;
+         h2{
+            font-size: 55px;
+            color: #6c9894;
+            font-family: 'Baloo_bhai_regular', sans-serif
+         }
+   
+         p{
+            font-size: 15px;
+            color: #6c9894;
+            font-family: Montserrat, serif;
+            padding-right: 50px;
+            padding-left: 50px;
+         }
+   
+         .btn{
+            background: #6c9894;
+            color: #ffffff;
+            border: 2px solid #6c9894;
+
+            &:hover{
+               color: #6c9894;
+               background: #ffffff;
+
+            }
+         }
+      }
+   }
+
+
+   .corner-image{
+      position: relative;
+
+      .img-p{
+         position: absolute;
+         height: 500px;
+         right: -10px;
+         top: -200px;
+
+
+         @media (max-width: 768px){
+            height: 200px;
+            right: -12px;
+            top: -45px;
+         }
+      }
+   }
+
+}
+

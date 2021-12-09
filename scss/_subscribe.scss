@@ -1,0 +1,56 @@
+.subscribe{
+   background: #6c9894;
+   padding-top: 100px;
+   padding-bottom: 150px;
+
+   
+
+   h2{
+      color: #fff;
+      font-family: 'Baloo_bhai_regular' ,serif;
+      font-size: 40px;
+      text-transform: uppercase;
+   }
+
+   p{
+      color: #fff;
+      font-family: Montserrat ,serif;
+      font-size: 20px;
+      text-transform: uppercase;
+   }
+
+
+
+   .form{
+      background: rgb(255, 255, 255);
+      width: 659px;
+      height: 63px;
+      padding: 10px;
+      border-radius: 15px;
+      padding-right: 20px;
+
+      @media (max-width: 767px) {
+         width: 300px;
+      }
+
+
+      input{
+         padding: 10px;
+         width: 85%;
+         border: none;
+         background: #fff;
+
+      }
+
+      .btn{
+         padding: 10px;
+         border: 1px solid #6c9894;
+         border-radius: 15px;
+
+         @media (max-width: 767px) {
+            padding: 5px;
+         }
+      }
+   }
+
+}
